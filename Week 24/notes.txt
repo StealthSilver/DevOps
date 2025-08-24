@@ -1,0 +1,22 @@
+LocalHost
+
+Localhost refers to the computer you're currently working on.
+It's essentially a loopback address that points to the machine itself,
+allowing it to communicate with itself over a network. 
+
+ping localhost -> to get the ip of the machine 
+ping google.com -> to get the ip of the edomain
+
+IPv4 : 132.11.11.133 
+IPv6 : [2620:1ec:33::10]:443 
+
+Local network, routing(mild hosting)
+
+If you have multiple laptops on the same wifi router, you can access one machine from another by using their private IP address.
+This is a mild version of deploying your app on your local network (or whats called the intranet)
+
+create an express server 
+
+ifconfig this will give you all the network addresses on the machine
+
+npx serve also serves the files on the private IP
