@@ -32,7 +32,7 @@ DNS propogation
 
 Deploying apps 
 
-1. renting servers on cloud (AWS, Azure, GCD)
+1. renting servers on cloud (AWS, Azure, GCD, Digital Ocean)
 2. renting your cloud centers
 3. Self Hosting (buying a CPU rack in house)
 4. Serverless providers 
@@ -52,3 +52,17 @@ In a bare-metal setup, an operating system (OS) runs directly on the physical ha
 
 Since there's no hypervisor, bare-metal systems tend to offer better performance, as the OS can directly access all the server’s resources without sharing them with other instances.
 This is especially important for high-performance applications like large databases, gaming servers, or mining crypto
+
+SSH protocol 
+
+The SSH protocol (Secure Shell) is a cryptographic network protocol that allows secure communication between two systems, typically for remote administration.
+It’s most commonly used to log into remote servers and execute commands, but it also facilitates secure file transfers and other operations.
+
+Key Features of SSH:
+
+1. Encryption: SSH encrypts the data that’s sent between the client and the server, so even if someone intercepts the connection, they can’t read the data. This makes it much more secure than older protocols like Telnet or FTP, which transmit data in plaintext.
+2. Authentication: SSH can use two methods of authentication:
+    - Password-based: You enter a password to authenticate yourself to the remote system.
+    - Public Key-based: A more secure method, where the client uses a private key to authenticate, and the server checks it against the corresponding public key. This eliminates the need for passwords and provides an extra layer of security.
+3. Integrity: SSH ensures the integrity of data, meaning that data cannot be tampered with while it’s in transit. If someone tries to alter the data being sent, the connection will be immediately disrupted.
+
