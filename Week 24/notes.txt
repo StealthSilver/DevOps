@@ -46,4 +46,9 @@ This hypervisor divides the host machine’s resources (CPU, memory, storage) in
 Each VM acts like a completely independent machine, even though they share the underlying hardware.
 You can run different operating systems and applications in different VMs on the same physical server.
 
-bitcoin mining will not run optimally on a virtual machine it either runs on a server in house or on a bare metal machine
+bitcoin mining will not run optimally on a virtual machine it either runs on a server in house or on a bare metal servers
+
+In a bare-metal setup, an operating system (OS) runs directly on the physical hardware without a hypervisor in between. There’s no virtualization layer.
+
+Since there's no hypervisor, bare-metal systems tend to offer better performance, as the OS can directly access all the server’s resources without sharing them with other instances.
+This is especially important for high-performance applications like large databases, gaming servers, or mining crypto
