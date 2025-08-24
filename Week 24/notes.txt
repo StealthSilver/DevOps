@@ -20,3 +20,20 @@ create an express server
 ifconfig this will give you all the network addresses on the machine
 
 npx serve also serves the files on the private IP
+
+override the domain name resolves to by obberriding the hosts file 
+
+vi /etc/hosts 
+127.0.0.1 : facebook.com
+
+go to facebook.com:3000 and you can get some credentials
+
+DNS propogation
+
+Deploying apps 
+
+1. renting servers on cloud (AWS, Azure, GCD)
+2. renting your cloud centers
+3. Self Hosting (buying a CPU rack in house)
+4. Serverless providers 
+5. Cloud native options(k8s)
