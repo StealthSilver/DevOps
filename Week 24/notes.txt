@@ -37,3 +37,13 @@ Deploying apps
 3. Self Hosting (buying a CPU rack in house)
 4. Serverless providers 
 5. Cloud native options(k8s)
+
+Virtual Machines 
+
+VMs run on a physical server (called the host) but are abstracted through a layer of virtualization software called a hypervisor (e.g., VMware, KVM).
+This hypervisor divides the host machine’s resources (CPU, memory, storage) into separate virtual machines.
+
+Each VM acts like a completely independent machine, even though they share the underlying hardware.
+You can run different operating systems and applications in different VMs on the same physical server.
+
+bitcoin mining will not run optimally on a virtual machine it either runs on a server in house or on a bare metal machine
