@@ -66,3 +66,21 @@ Key Features of SSH:
     - Public Key-based: A more secure method, where the client uses a private key to authenticate, and the server checks it against the corresponding public key. This eliminates the need for passwords and provides an extra layer of security.
 3. Integrity: SSH ensures the integrity of data, meaning that data cannot be tampered with while it’s in transit. If someone tries to alter the data being sent, the connection will be immediately disrupted.
 
+on digital ocean create a droplet: this is a VM
+
+Choose Authentication Method
+password or ssh 
+
+get the public IP of the server
+
+ssh root@SERVER_IP -> you can interact with your machine 
+
+public key cryptography 
+
+user -> public - private key pair
+
+message + private key -> hjfuahfaifa 
+hjfuahfaifa + public key -> message 
+
+the reverse is also true
+
