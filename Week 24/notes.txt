@@ -164,3 +164,9 @@ Reverse Proxies
 NGINX : https://www.nginx.com/resources/glossary/nginx
 
 nginx is a open source software for web serving, reverse proxies, caching, load balancing, media streaming, 
+
+to install nginx
+sudo apt update
+sudo apt install nging
+
+then in the security groups add the rule for port 80
