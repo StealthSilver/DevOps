@@ -127,5 +127,30 @@ steps to create a new machine
 to run the instance locally 
 ssh -i silver.pem ubuntu@13.60.66.127
 but you need to change the access of the file from 644 to 700
-after the same command we get into the machine
+after the same command we get into the machine 
 ubuntu@ip-172-31-45-168:~$
+
+git comes by default in ubuntu so you can git clone any repo 
+node does not come by default so install node
+
+1. install node : curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+2. export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"   # Loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  
+
+3. source ~/.bashrc 
+
+4. nvm --version
+
+5. nvm install --lts
+
+6. npm install 
+
+7. check the port 
+
+8. node index.js -> the machine is running
+
+9. go to the public-ip:8080 
+
+* dont use EC2 for react deployments. backends can be deployed
