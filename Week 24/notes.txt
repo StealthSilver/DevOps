@@ -94,3 +94,14 @@ create a passPhrase tehn a pair will generate
 check your public key 
 cat ~/.ssh/id_ed25519.pub
 
+AMAZON WEB SERVICES 
+
+AWS is a cloud service 
+it let's you:
+
+1. rent services (virtual machines)
+2. manage domains
+3. upload objects(mp4 files, jpgs, mp3s)
+4. autoscale servers
+5. create k8s clusters
+
