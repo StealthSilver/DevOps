@@ -170,3 +170,4 @@ sudo apt update
 sudo apt install nging
 
 then in the security groups add the rule for port 80
+then set up DNS and then configure nginx 
