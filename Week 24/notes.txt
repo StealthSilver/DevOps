@@ -154,3 +154,13 @@ node does not come by default so install node
 9. go to the public-ip:8080 
 
 * dont use EC2 for react deployments. backends can be deployed
+
+under the hood the default port of https: is 443 and of http is 80
+if we can run the application on port 80 then we need not specify the port in the url as 8080
+two process cannot take the same port, for that we need the reverse proxy
+
+Reverse Proxies
+
+NGINX : https://www.nginx.com/resources/glossary/nginx
+
+nginx is a open source software for web serving, reverse proxies, caching, load balancing, media streaming, 
