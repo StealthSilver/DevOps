@@ -117,3 +117,15 @@ steps to create a new machine
 - select the machine and the OS -> Ubuntu 
 * you may have to chose an older version of the Ubuntu, e.g. 20 for deploying applications like judge 0 (used for leetcode) to use the c-groups 
 - select the machine type, for basic projects micro is good. for react and next js projects at least small is required for the build process
+- create a new key pair (developer specific)
+- Security groups (firewall in digital ocean and vultr)
+- add the port 22 for ssh access of the developers
+- add the port 3000 to be acecssed by everyone
+* subnet is a bunch of ip ranges
+- added 8 gb storage 
+
+to run the instance locally 
+ssh -i silver.pem ubuntu@13.60.66.127
+but you need to change the access of the file from 644 to 700
+after the same command we get into the machine
+ubuntu@ip-172-31-45-168:~$
