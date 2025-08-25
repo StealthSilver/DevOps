@@ -105,3 +105,15 @@ it let's you:
 4. autoscale servers
 5. create k8s clusters
 
+Renting servers on AWS 
+
+EC2 : elastic compute 2
+
+steps to create a new machine 
+- log into AWS 
+- go to EC2 
+- click on create instance 
+- write the project name 
+- select the machine and the OS -> Ubuntu 
+* you may have to chose an older version of the Ubuntu, e.g. 20 for deploying applications like judge 0 (used for leetcode) to use the c-groups 
+- select the machine type, for basic projects micro is good. for react and next js projects at least small is required for the build process
