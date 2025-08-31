@@ -1,0 +1,10 @@
+PROCESS MANAGEMENET (PM2)
+
+it keeps a process running unless stopped explicitely
+
+features 
+- keeps the app running continuously
+- automatically restarts the cached apps 
+- provided monitoring and logging 
+- supports running multiple app instances for better performance
+

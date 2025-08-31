@@ -89,7 +89,7 @@ to generate a privte-public keypair
 ssh-keygen
 
 /Users/username/.ssh/id_ed25519 
-create a passPhrase tehn a pair will generate
+create a passPhrase then a pair will generate
 
 check your public key 
 cat ~/.ssh/id_ed25519.pub
