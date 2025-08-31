@@ -8,3 +8,20 @@ features
 - provided monitoring and logging 
 - supports running multiple app instances for better performance
 
+- create an EC2 instance
+- install node in vm  
+- install npm in vm 
+- create a file index.js 
+- run the server
+
+- lsof command in ubuntu gives whatever process are running on all ports
+- to get the process running on port 3000 
+do lsof -i :3000
+- to kill the running process run [kill processid]
+- the server will stop running
+
+to start the server with pm2 
+- sudo i -g pm2
+- to start with pm2 : pm2 start app.js 
+
+now even if we kill the server then it will keep on running
