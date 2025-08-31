@@ -81,4 +81,4 @@ jobs:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-do the ci-cd with github actions for a next js project
+do the ci-cd with github actions for a next js project 
