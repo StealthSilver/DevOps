@@ -44,3 +44,36 @@ there are generatlly three env in any appliction
 1. Dev : developer facing
 2. Staging / Test : testing 
 3. Prod : client facing 
+
+
+In a codebase if a file is inside of `.github/workflows`
+
+It is considered a CI file which means github will run the contents of the files whenever the conditions are me
+
+Some useful cases where this might be handy:
+
+- To run unit/integrated tests
+- To run lint/format checking
+- To build the application
+- Deploy it whenever someone pushes their code
+
+.github/workflows/hello.yml
+
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "🍏 This job's status is ${{ job.status }}."
