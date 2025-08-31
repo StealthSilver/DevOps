@@ -59,6 +59,7 @@ Some useful cases where this might be handy:
 
 .github/workflows/hello.yml
 
+---------------------------------------------------------------------------------------------------------------------
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
@@ -77,3 +78,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+---------------------------------------------------------------------------------------------------------------------
