@@ -2,3 +2,4 @@
 
 1. visit aws startups to get free credits
 2. appleboy/ssh-action gitbhub actions
+3. ngRok and fast deployment
