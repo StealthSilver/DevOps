@@ -39,3 +39,8 @@ the integrations are verified bu
 2. running automated tests 
 
 continuous deployment is the process of subsequently deploying your code in different enviornments
+
+there are generatlly three env in any appliction 
+1. Dev : developer facing
+2. Staging / Test : testing 
+3. Prod : client facing 
