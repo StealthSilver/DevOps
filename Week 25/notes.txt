@@ -27,3 +27,5 @@ to start the server with pm2
 now even if we kill the server then it will keep on running
 
 - curl app.js : to check the api endpoint in the terminal
+
+pm2 just restarts the server instantly whenever the server starts
