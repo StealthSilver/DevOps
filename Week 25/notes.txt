@@ -80,3 +80,5 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
 ---------------------------------------------------------------------------------------------------------------------
+
+do the ci-cd with github actions for a next js project
