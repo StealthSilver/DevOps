@@ -30,3 +30,12 @@ now even if we kill the server then it will keep on running
 
 pm2 just restarts the server instantly whenever the server starts
 pm2 examples will give all the commands for pm2
+
+CI-CD : Continuous Integeration - Continuous Deployment
+
+continuous integration is a development practice where a developer integrates the code in a shared repo multiple times
+the integrations are verified bu 
+1. building the project 
+2. running automated tests 
+
+continuous deployment is the process of subsequently deploying your code in different enviornments
