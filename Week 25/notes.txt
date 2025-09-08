@@ -89,3 +89,20 @@ TODO : do the ci-cd with github actions for a next js project
 creating a monorepo with nodejs, nextjs, prisma and postgres and deploying it. 
 
 1. npx create-turbo@latest
+2. use pnpm as packege manager
+3. get rid of one nextjs project : docs inside hte app
+4. create two new backend, http-server, ws-server
+5. create the prisma package
+6. create the folder prisma in packages
+7. inside prisma : npm init -y 
+8. inside the package.json, change the name to @repo/db, remove the scripts part too
+9. inside the prisma npx tsc --init
+10. inside the tsconfig, extend the base config
+{
+  "extends":"@repo/tyescript-config/base.json"
+}
+11. create the tsconfig as teh devDEpendency in package.json
+ "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  },
+  -> if pnpm, "workspace:*", for npm/yarn only "*"
