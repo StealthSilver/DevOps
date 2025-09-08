@@ -81,4 +81,11 @@ jobs:
 
 ---------------------------------------------------------------------------------------------------------------------
 
-do the ci-cd with github actions for a next js project 
+TODO : do the ci-cd with github actions for a next js project 
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+creating a monorepo with nodejs, nextjs, prisma and postgres and deploying it. 
+
+1. npx create-turbo@latest
