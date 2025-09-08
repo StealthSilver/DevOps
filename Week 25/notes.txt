@@ -115,3 +115,4 @@ model User {
   password String
 }
 
+15. get a fresh db from neon db
