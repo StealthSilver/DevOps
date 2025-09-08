@@ -106,3 +106,12 @@ creating a monorepo with nodejs, nextjs, prisma and postgres and deploying it.
     "@repo/typescript-config": "workspace:*"
   },
   -> if pnpm, "workspace:*", for npm/yarn only "*"
+12. pnpm add prisma 
+13. npx prisma init -> this will create a schema.prisma file, where we can write the schemas
+14. create a user schema in schemas.prisma 
+model User {
+  id       String @id @default(uuid())
+  username String @unique
+  password String
+}
+

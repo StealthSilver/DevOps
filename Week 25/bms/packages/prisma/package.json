@@ -11,5 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "prisma": "^6.15.0"
+  }
 }
