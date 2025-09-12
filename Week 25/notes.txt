@@ -118,4 +118,6 @@ model User {
 15. get a fresh db from neon db
 16. copy the connection string and paste it into the .env 
 17. run the command  npx prisma migrate dev     
-18.  runt he command npx prisma generate
+18. run the command npx prisma generate
+19. create the src/index.ts and write the prisma client export code there 
+20. in the apps/web/package.json add the devDepencdency  "@repo/db": "workspace:*",
