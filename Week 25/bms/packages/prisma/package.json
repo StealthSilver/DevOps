@@ -2,10 +2,14 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "main": "index.js",
+  "exports": {
+    "./client": "./src/index.ts"
+  },
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "prisma": "^6.15.0"
   },
   "license": "ISC",
   "scripts": {
@@ -13,7 +17,6 @@
   },
   "description": "",
   "dependencies": {
-    "@prisma/client": "6.15.0",
-    "prisma": "^6.15.0"
+    "@prisma/client": "6.15.0"
   }
 }
