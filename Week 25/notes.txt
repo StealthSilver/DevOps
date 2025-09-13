@@ -121,3 +121,12 @@ model User {
 18. run the command npx prisma generate
 19. create the src/index.ts and write the prisma client export code there 
 20. in the apps/web/package.json add the devDepencdency  "@repo/db": "workspace:*",
+
+----------------
+pushing in github 
+
+create a repo on github, and copy the http link 
+
+1. git remote add origin [http link]
+2. git push origin HEAD 
+------------------
