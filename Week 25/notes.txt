@@ -283,5 +283,8 @@ this is the manual deployment process on vm
 
 --------------------------------------------------------------------------------------------------------------
 
-Creating a CI pipeline 
+Creating a CD pipeline 
 
+1. create a .github folder 
+2. create a workflows folder 
+3. create two files cd_prod.yml and cd_staging.yml
