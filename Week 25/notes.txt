@@ -217,18 +217,30 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 source ~/.bashrc
 nvm install --lts
 
+adding nginx: 
+sudo apt-get upgrade
+sudo apt install nginx
+
 3. clone the monorepo to both the sevrers 
 4. start 3 processes (next, ws, http)
 5. point our domain names to the respective servers  
+
+go to squarespace, buy a domain name 
+
+add records for the domain name 
 a-http.domain.com
 a-ws.domain.com
 a-fe.domain.com
+
+make all of them A records and add the respective ip addresses
 
 and 
 
 staging.a-http.domain.com
 staging.a-ws.domain.com
 staging.a-fe.domain.com
+
+
 
 6. refresh the nginx config 
 7. test that everything is working
