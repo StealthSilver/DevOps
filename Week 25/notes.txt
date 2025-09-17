@@ -271,5 +271,11 @@ go to the dnschecker.com to see the dns is available or not
 then do to dns:port to check the website 
 
 6. refresh the nginx config 
+
+- sudo vi /etc/nginx/nginx.conf
+- delete all the configurations 
+- get the nginx conf for three processes and then paste them you will have to write three server configurations 
+- do the same for the dev server 
+
 7. test that everything is working
 
