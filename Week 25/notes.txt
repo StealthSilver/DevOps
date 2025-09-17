@@ -235,6 +235,8 @@ copy the db_url and paste it in the packages/prisma/.env for both dev and prod r
 migrate the dbs 
 npx prisma migrate dev
 
+start the ws server, http server and the frontend
+
 
 5. point our domain names to the respective servers  
 
