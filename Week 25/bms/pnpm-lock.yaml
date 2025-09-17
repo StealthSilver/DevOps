@@ -33,6 +33,9 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      dotenv:
+        specifier: ^16.6.1
+        version: 16.6.1
 
   apps/web:
     dependencies:

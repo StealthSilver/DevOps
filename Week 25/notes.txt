@@ -189,3 +189,9 @@ export default async function Home() {
     </div>
   );
 }
+
+----------------------------------
+
+test the ws-server endpoint
+test the next js frontend
+test the http backend
