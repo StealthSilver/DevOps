@@ -267,7 +267,8 @@ staging.a-http.domain.com
 staging.a-ws.domain.com
 staging.a-fe.domain.com
 
-
+go to the dnschecker.com to see the dns is available or not
+then do to dns:port to check the website 
 
 6. refresh the nginx config 
 7. test that everything is working
