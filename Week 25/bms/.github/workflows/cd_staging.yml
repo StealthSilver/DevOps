@@ -11,22 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js (example)
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run build
-        run: npm run build
-
-      - name: Deploy to staging
+      - name: SSH Into server
         run: |
-          echo "Deploying to staging..."
-          # Replace this with your actual deployment command
-          ./scripts/deploy-staging.sh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/ssh_key
+          chmod 600 ~/ssh_key
+          ssh -o StrictHostKeyChecking=no -i ~/ssh_key root@64.227.247.124 << 'EOF'
+            cd week-25-ci-next-app/ && git pull 
+            pnpm install 
+            pnpm run build 
+            pm2 restart fe-server
+            pm2 restart http-server
+            pm2 restart ws-server
+          EOF
