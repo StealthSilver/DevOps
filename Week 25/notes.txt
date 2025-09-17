@@ -156,3 +156,11 @@ add the scripts
     "dev": "npm run build && npm run start",
     "start": "node dist/index.js"
   },
+
+-------------------------
+
+start writing the application logic for the http server 
+1. pnpm add express @types/express
+2. write the express boilerplate 
+3. create a post signup route
+4. import the db logic from client -> @repo/db/client
