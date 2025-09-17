@@ -167,4 +167,7 @@ start writing the application logic for the http server
 
 
 -------------------------
-start writing the application logic for the ws server
+start writing the application logic for the ws server 
+1. pnpm add ws @types/ws
+2. add the db client 
+3. store the username and password in the db
