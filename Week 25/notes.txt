@@ -212,6 +212,11 @@ ssh -i ~/.ssh/id_rsa_do root@206.189.137.51
 
 add node and nginx to both the machines
 
+adding node :
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+
 3. clone the monorepo to both the sevrers 
 4. start 3 processes (next, ws, http)
 5. point our domain names to the respective servers  
