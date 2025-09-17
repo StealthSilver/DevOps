@@ -197,3 +197,23 @@ test the next js frontend
 test the http backend
 
 in any codebase, thre is a dev branch then there is a staging branch tehn there is the production branch 
+
+deploying the monorepo 
+
+1. create 2 servers 
+2. add node and nginx to both the sevrers 
+3. clone the monorepo to both the sevrers 
+4. start 3 processes (next, ws, http)
+5. point our domain names to the respective servers  
+a-http.domain.com
+a-ws.domain.com
+a-fe.domain.com
+
+and 
+
+staging.a-http.domain.com
+staging.a-ws.domain.com
+staging.a-fe.domain.com
+
+6. refresh the nginx config 
+7. test that everything is working
