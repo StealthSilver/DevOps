@@ -236,7 +236,12 @@ migrate the dbs
 npx prisma migrate dev
 
 start the ws server, http server and the frontend
-
+- do a global pnpm run build 
+- use the process manager to start the processes 
+- npm install -g pm2 
+- go to the http-server repo : pm2 start npm --name "http-server" -- start
+- pm2 start npm --name "ws-server" -- start
+- pm2 start npm --name "fe-server" -- start
 
 5. point our domain names to the respective servers  
 
