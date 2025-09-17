@@ -279,3 +279,7 @@ then do to dns:port to check the website
 
 7. test that everything is working
 
+this is the manual deployment process on vm
+
+--------------------------------------------------------------------------------------------------------------
+
