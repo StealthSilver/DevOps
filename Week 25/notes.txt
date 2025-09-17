@@ -164,3 +164,7 @@ start writing the application logic for the http server
 2. write the express boilerplate 
 3. create a post signup route
 4. import the db logic from client -> @repo/db/client
+
+
+-------------------------
+start writing the application logic for the ws server
