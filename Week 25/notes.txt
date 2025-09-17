@@ -231,6 +231,10 @@ git clone the https link
 pnpm install (globally)
 
 create two dbs for production and staging
+copy the db_url and paste it in the packages/prisma/.env for both dev and prod respectively
+migrate the dbs 
+npx prisma migrate dev
+
 
 5. point our domain names to the respective servers  
 
