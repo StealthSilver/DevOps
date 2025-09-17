@@ -144,3 +144,15 @@ in the tsconfig :
   "outDir" : "./dist"
   }
 }
+in the package.json add the devDep:
+ "devDependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  },
+
+add the scripts 
+ "scripts": {
+    "build": "tsc -b",
+    "dev": "npm run build && npm run start",
+    "start": "node dist/index.js"
+  },
