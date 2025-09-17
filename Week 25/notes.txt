@@ -281,6 +281,13 @@ then do to dns:port to check the website
 
 this is the manual deployment process on vm
 
+after there are any changes to the codebase you manually redeploy the application
+
+- ssh into dev 
+- cd project name 
+- git pull
+- pm2 restart
+
 --------------------------------------------------------------------------------------------------------------
 
 Creating a CD pipeline 
