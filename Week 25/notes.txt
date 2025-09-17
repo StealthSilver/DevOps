@@ -206,6 +206,12 @@ create a new droplet and name it dev
 create another droplet and name it prod
 
 2. add node and nginx to both the sevrers 
+ssh into both the machines prod and dev 
+
+ssh -i ~/.ssh/id_rsa_do root@206.189.137.51
+
+add node and nginx to both the machines
+
 3. clone the monorepo to both the sevrers 
 4. start 3 processes (next, ws, http)
 5. point our domain names to the respective servers  
