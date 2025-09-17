@@ -171,3 +171,21 @@ start writing the application logic for the ws server
 1. pnpm add ws @types/ws
 2. add the db client 
 3. store the username and password in the db
+
+
+----------------------------------
+
+add the fetching logic in next js frontend -> in apps/web/app/page.tsx
+
+import { client } from "@repo/db/client";
+
+export default async function Home() {
+  const user = await client.user.findFirst();
+
+  return (
+    <div>
+      {user?.username}
+      {user?.password}
+    </div>
+  );
+}
