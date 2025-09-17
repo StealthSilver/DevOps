@@ -131,3 +131,4 @@ create a repo on github, and copy the http link
 2. git push origin HEAD 
 ------------------
 
+21. do a global pnpm install
