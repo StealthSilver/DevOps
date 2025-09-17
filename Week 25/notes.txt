@@ -248,7 +248,7 @@ use pm2 list for the list of processes
 run the same commands on the dev machine
 
 
-check by going to the public id / 3000 -> check the port 
+check by going to the public id / 3000 -> check the url 
 
 5. point our domain names to the respective servers  
 
