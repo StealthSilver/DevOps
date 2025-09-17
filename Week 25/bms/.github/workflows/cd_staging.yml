@@ -1,0 +1,32 @@
+name: Deploy on staging
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  redeploy_everything:
+    name: Deploying everything to the staging cluster
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js (example)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run build
+        run: npm run build
+
+      - name: Deploy to staging
+        run: |
+          echo "Deploying to staging..."
+          # Replace this with your actual deployment command
+          ./scripts/deploy-staging.sh

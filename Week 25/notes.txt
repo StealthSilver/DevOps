@@ -295,3 +295,5 @@ Creating a CD pipeline
 1. create a .github folder 
 2. create a workflows folder 
 3. create two files cd_prod.yml and cd_staging.yml 
+4. write the github actions 
+5. go to github repo settings and in secrets and variablees -> actions -> store the private key
