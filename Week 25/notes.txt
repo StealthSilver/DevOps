@@ -205,7 +205,7 @@ create a new digital ocean project
 create a new droplet and name it dev 
 create another droplet and name it prod
 
-2. add node and nginx to both the sevrers 
+2. add node, pnpm and nginx to both the sevrers 
 ssh into both the machines prod and dev 
 
 ssh -i ~/.ssh/id_rsa_do root@206.189.137.51
@@ -221,8 +221,17 @@ adding nginx:
 sudo apt-get upgrade
 sudo apt install nginx
 
+adding pnpm : 
+npm install -g pnpm 
+
 3. clone the monorepo to both the sevrers 
+git clone the https link 
+
 4. start 3 processes (next, ws, http)
+pnpm install (globally)
+
+create two dbs for production and staging
+
 5. point our domain names to the respective servers  
 
 go to squarespace, buy a domain name 
