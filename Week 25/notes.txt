@@ -287,4 +287,4 @@ Creating a CD pipeline
 
 1. create a .github folder 
 2. create a workflows folder 
-3. create two files cd_prod.yml and cd_staging.yml
+3. create two files cd_prod.yml and cd_staging.yml 
