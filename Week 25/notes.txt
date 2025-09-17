@@ -201,6 +201,10 @@ in any codebase, thre is a dev branch then there is a staging branch tehn there 
 deploying the monorepo 
 
 1. create 2 servers 
+create a new digital ocean project 
+create a new droplet and name it dev 
+create another droplet and name it prod
+
 2. add node and nginx to both the sevrers 
 3. clone the monorepo to both the sevrers 
 4. start 3 processes (next, ws, http)
@@ -217,3 +221,4 @@ staging.a-fe.domain.com
 
 6. refresh the nginx config 
 7. test that everything is working
+
