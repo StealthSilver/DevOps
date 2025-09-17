@@ -243,6 +243,10 @@ start the ws server, http server and the frontend
 - pm2 start npm --name "ws-server" -- start
 - pm2 start npm --name "fe-server" -- start
 
+use pm2 list for the list of processes 
+
+run the same commands on the dev machine
+
 5. point our domain names to the respective servers  
 
 go to squarespace, buy a domain name 
