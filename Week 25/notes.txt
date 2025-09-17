@@ -132,3 +132,15 @@ create a repo on github, and copy the http link
 ------------------
 
 21. do a global pnpm install
+22. start creating the http server 
+npm init -y
+npx tsc --init
+in the tsconfig :
+{
+  "extends": "@repo/typescript-config/base.json",
+
+"compilerOptions":{
+  "rootDir" : "./src",
+  "outDir" : "./dist"
+  }
+}
