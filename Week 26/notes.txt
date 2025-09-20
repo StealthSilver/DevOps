@@ -1,2 +1,6 @@
 DOCKER 
 
+docker is used for thee reasons :
+1. Kubernetes / Container orchestration
+2. Running processes in isolated enviornments 
+3. Starting projects/ auxilary serices
