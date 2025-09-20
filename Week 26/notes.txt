@@ -5,4 +5,4 @@ docker is used for thee reasons :
 2. Running processes in isolated enviornments 
 3. Starting projects/ auxilary serices
 
-containers are a way to package and distribute software
+containers are a way to package and distribute software applications which makes it easy to deploy consistently across different OS
