@@ -91,11 +91,6 @@ Each image can have multiple tags, representing versions.
 
 hub.docekr.com -> contains all the images
 
-- docker images -> to check the images that are running 
-- docker run [image name] -> to run the image 
-- docker rmi [image name] -> to remove the image
-- docker ps -> what all containers running
-
 
 IMAGES vs CONTAINERS 
 
@@ -120,3 +115,11 @@ docker run -p 27017 : 27017 mongo
 docker run → Starts a new container from an image.
 mongo → The image name (official MongoDB image).
 -p 27017:27017 → This is port mapping (host:container).
+
+COMMON COMMANDS 
+
+- docker images -> to check the images that are running 
+- docker run [image name] -> to run the image 
+- docker rmi [image name] -> to remove the image
+- docker ps -> what all containers running
+- docker build -> building our own images 
