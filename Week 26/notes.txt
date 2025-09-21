@@ -94,3 +94,22 @@ hub.docekr.com -> contains all the images
 docker images -> to check the images that are running 
 docker run [image name] -> to run the image 
 docker rmi [image name] -> to remove the image
+
+
+IMAGES vs CONTAINERS 
+
+1. Docker Images
+
+Definition: A Docker image is a read-only template used to create containers.
+Purpose: Stores everything needed to run an application: code, libraries, dependencies, and environment variables.
+Static: Cannot be changed once created (immutable).
+Analogy: Like a blueprint or recipe for a cake.
+Example: python:3.11 is an image containing Python 3.11 and its environment.
+
+2. Docker Containers
+
+Definition: A container is a running instance of an image.
+Purpose: Executes the application in an isolated environment.
+Dynamic: Can be started, stopped, modified, or deleted.
+Analogy: Like the actual cake baked from the recipe.
+Example: Running docker run -it python:3.11 creates a container from the Python image.
