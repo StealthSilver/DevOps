@@ -6,3 +6,126 @@ docker is used for thee reasons :
 3. Starting projects/ auxilary serices
 
 containers are a way to package and distribute software applications which makes it easy to deploy consistently across different OS
+
+1. install docker 
+2. in the terminal write docker -> if runs docker is installed 
+
+DOCKER ARCHITECTURE 
+
+Docker CLI -> Docker Engine -> OS Kernel -> Containers
+Docker Engine <-> Docker Registry (for pulling/pushing images)
+
+1. Docker Architecture
+
+Docker uses a client-server architecture. It allows you to package applications and dependencies into containers that can run anywhere. The main components of Docker architecture are:
+
+Components:
+
+Docker Client (CLI)
+
+The interface through which users interact with Docker.
+
+You run commands like docker run, docker build, docker push, etc.
+
+The CLI communicates with the Docker Engine via a REST API.
+
+Docker Engine (Server/Daemon)
+
+The core of Docker, responsible for building, running, and managing containers.
+
+Runs as a background process (dockerd) on your host system.
+
+Manages images, containers, networks, and volumes.
+
+Docker Registry
+
+A repository to store Docker images.
+
+Example: Docker Hub (public) or private registries.
+
+Images are pulled from or pushed to registries.
+
+Docker Objects
+
+Images: Read-only templates to create containers.
+
+Containers: Running instances of images.
+
+Volumes: For persistent storage.
+
+Networks: For communication between containers.
+
+2. Docker Engine
+
+The Docker Engine is the heart of Docker. It’s responsible for:
+
+Building images: Using Dockerfile instructions to create container images.
+
+Running containers: Launching isolated environments using images.
+
+Managing containers: Start, stop, remove, and monitor containers.
+
+Networking: Manage communication between containers.
+
+Storage: Manage persistent data using volumes.
+
+Components of Docker Engine:
+
+Docker Daemon (dockerd)
+
+Listens for Docker API requests from the CLI or other tools.
+
+Manages images, containers, networks, and storage.
+
+REST API
+
+The interface for communication between the CLI and daemon.
+
+Container Runtime
+
+Runs containers using OS-level virtualization (cgroups, namespaces).
+
+By default, Docker uses runc as its runtime.
+
+3. Docker CLI
+
+Docker Command Line Interface is how users interact with Docker.
+
+Commands are sent to the Docker Engine, which executes them.
+
+Examples:
+
+docker build → Builds an image from a Dockerfile
+
+docker run → Runs a container from an image
+
+docker ps → Lists running containers
+
+docker pull / docker push → Pulls or pushes images to registry
+
+How it works:
+
+User types a command in CLI.
+
+CLI sends a REST API request to Docker Engine.
+
+Docker Engine executes the request and returns the result.
+
+4. Docker Registry
+
+Docker Registry is a storage and distribution system for Docker images.
+
+Public Registry: Docker Hub
+
+Private Registry: Hosted on private servers for internal use
+
+Workflow:
+
+Push an image:
+docker push myregistry/myimage:tag → sends image to registry
+
+Pull an image:
+docker pull myregistry/myimage:tag → downloads image from registry
+
+Versioning:
+Each image can have multiple tags, representing versions.
