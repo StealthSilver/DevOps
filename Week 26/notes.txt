@@ -115,3 +115,8 @@ Dynamic: Can be started, stopped, modified, or deleted.
 Analogy: Like the actual cake baked from the recipe.
 Example: Running docker run -it python:3.11 creates a container from the Python image.
 
+docker run -p 27017 : 27017 mongo 
+
+docker run → Starts a new container from an image.
+mongo → The image name (official MongoDB image).
+-p 27017:27017 → This is port mapping (host:container).
