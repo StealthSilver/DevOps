@@ -91,9 +91,10 @@ Each image can have multiple tags, representing versions.
 
 hub.docekr.com -> contains all the images
 
-docker images -> to check the images that are running 
-docker run [image name] -> to run the image 
-docker rmi [image name] -> to remove the image
+- docker images -> to check the images that are running 
+- docker run [image name] -> to run the image 
+- docker rmi [image name] -> to remove the image
+- docker ps -> what all containers running
 
 
 IMAGES vs CONTAINERS 
@@ -113,3 +114,4 @@ Purpose: Executes the application in an isolated environment.
 Dynamic: Can be started, stopped, modified, or deleted.
 Analogy: Like the actual cake baked from the recipe.
 Example: Running docker run -it python:3.11 creates a container from the Python image.
+
