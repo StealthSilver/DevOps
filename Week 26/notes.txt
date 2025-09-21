@@ -126,3 +126,6 @@ COMMON COMMANDS
 - docker push -> pushing images to hub.docker.com 
 - docker kill [container id] -> kill the instance
 - docker exec -it [containerid] sh -> getting inside the container in shell access
+
+DOCKER FILE 
+
