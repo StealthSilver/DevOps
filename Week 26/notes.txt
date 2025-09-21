@@ -88,3 +88,5 @@ Pull an image:
 docker pull myregistry/myimage:tag → downloads image from registry
 Versioning:
 Each image can have multiple tags, representing versions.
+
+hub.docekr.com -> contains all the images
