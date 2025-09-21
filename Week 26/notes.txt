@@ -146,3 +146,5 @@ to inject the env vaiables you have to use -e
 
 now you can push the image on docker hub
 
+docker login 
+docker push stealthsilver/hello-app
