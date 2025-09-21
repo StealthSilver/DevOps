@@ -130,3 +130,5 @@ COMMON COMMANDS
 DOCKER FILE 
 
 if you want to containerize a project then you have to create a docker file for it 
+
+create a new node project -> node_project
