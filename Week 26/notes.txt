@@ -142,3 +142,4 @@ now this image is present on your docker to run the image
 - docker run -p 3000:3000 hello-app
 
 now you can push the image on docker hub
+
