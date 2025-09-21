@@ -90,3 +90,7 @@ Versioning:
 Each image can have multiple tags, representing versions.
 
 hub.docekr.com -> contains all the images
+
+docker images -> to check the images that are running 
+docker run [image name] -> to run the image 
+docker rmi [image name] -> to remove the image
