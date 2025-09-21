@@ -123,3 +123,6 @@ COMMON COMMANDS
 - docker rmi [image name] -> to remove the image
 - docker ps -> what all containers running
 - docker build -> building our own images 
+- docker push -> pushing images to hub.docker.com 
+- docker kill [container id] -> kill the instance
+- docker exec -it [containerid] sh -> getting inside the container in shell
