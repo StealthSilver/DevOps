@@ -132,3 +132,11 @@ DOCKER FILE
 if you want to containerize a project then you have to create a docker file for it 
 
 create a new node project -> node_project
+create a dockerfile in it 
+write the commands in teh docker file 
+create a .dockerignore file and write the ignored files in that 
+run the build command 
+- docker build -t hello-app . 
+
+now this image is present on your docker to run the image 
+- docker run -p 3000:3000 hello-app
