@@ -172,3 +172,9 @@ if we change the code then only the third and forth layer will re build as other
 Optimising the docker file
 
 change the docker file in a way then npm install must be cached as it takes a lot of time while building
+
+COPY ./package.json ./package.json 
+COPY ./package-lock.json ./package-lock.json 
+RUN npm install 
+
+pushing the npm install upwards so that it is cached even when the code changes. only when the package.json changes then npm install will run
