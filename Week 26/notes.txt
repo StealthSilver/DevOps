@@ -155,3 +155,4 @@ docker push stealthsilver/hello-app
 Layers in docker 
 
 layers are a fundamnetal part of the image architecture that allows docker to be efficient, fast and portable
+when we create an image we are layering over a base image
