@@ -5,8 +5,10 @@ FROM node:22-alpine
 WORKDIR /app
 
 # Step 3: Install dependencies
-COPY package*.json ./
-RUN npm install
+
+COPY ./package.json ./package.json 
+COPY ./package-lock.json ./package-lock.json 
+RUN npm install 
 
 # Step 4: Copy app files
 COPY . .
