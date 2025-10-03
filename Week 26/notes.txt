@@ -156,3 +156,7 @@ Layers in docker
 
 layers are a fundamnetal part of the image architecture that allows docker to be efficient, fast and portable
 when we create an image we are layering over a base image
+
+in the dockerfile has 4 layers 
+
+base layer -> workdir image -> copy the source code -> npm install 
