@@ -190,3 +190,6 @@ for mongo the data is stored in data/db we need to store it somewhere
 
 for the docker container a volume is connected and then the persistant files are stored in the volume
 when the docker stops the data gets stored in the volume and when the docker re-runs then the data is used from the volume
+
+- docker volume create mongo_db_data 
+- docker run -p 27017:27017 -v mongo_db_data:/data/db mongo
