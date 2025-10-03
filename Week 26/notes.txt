@@ -178,3 +178,7 @@ COPY ./package-lock.json ./package-lock.json
 RUN npm install 
 
 pushing the npm install upwards so that it is cached even when the code changes. only when the package.json changes then npm install will run
+
+NETWORKS AND VOLUMES 
+
+if we restart a container then the data goes away
