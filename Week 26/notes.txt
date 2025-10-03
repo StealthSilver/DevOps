@@ -201,4 +201,5 @@ we use a network to connect the two conatiners
 
 creating a newtwork 
 
-- docker network create [name]
+- docker network create [network name]
+- docker run --name [container name] --network [network name] 27017:27017 -v mongo_db_data:/data/db mongo
