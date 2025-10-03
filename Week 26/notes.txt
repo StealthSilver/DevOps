@@ -196,4 +196,9 @@ when the docker stops the data gets stored in the volume and when the docker re-
 
 NETWORKS 
 
-two docker containers cannot communicate with each other
+two docker containers cannot communicate with each other. 
+we use a network to connect the two conatiners 
+
+creating a newtwork 
+
+- docker network create [name]
