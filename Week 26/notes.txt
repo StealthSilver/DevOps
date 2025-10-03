@@ -205,6 +205,7 @@ creating a newtwork
 
 starting the mongo container
 - docker run --name [container name] --network [network name] -p 27017:27017 -v mongo_db_data:/data/db mongo
+we can remove the port mapping after this
 
 replace the mongo uri -> localhost with the [container name]
 
