@@ -169,6 +169,6 @@ when you docker build then the layers are cached
 
 if we change the code then only the third and forth layer will re build as others are cached 
 
-Optimising the docker files
+Optimising the docker file
 
 change the docker file in a way then npm install must be cached as it takes a lot of time while building
