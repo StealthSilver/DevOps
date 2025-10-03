@@ -212,4 +212,4 @@ start the node container
 
 - docker build 
 
-- docker run --network node_app_network -p 3000:3000 users-app
+- docker run --network node_app_network -p 3000:3000 [app_name]
