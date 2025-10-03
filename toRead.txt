@@ -5,3 +5,4 @@
 3. ngRok and fast deployment
 4. certificate management with certBot, refreshing in 3 months
 5. write ahead logs
+6. hot module reloading bind volumes -> docker
