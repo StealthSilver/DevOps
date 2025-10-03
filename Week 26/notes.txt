@@ -165,3 +165,6 @@ layers are required for caching
 this makes the project reusable and sharable 
 
 the base layer is cached also all the subsequent layers are also cached
+when you docker build then the layers are cached
+
+if we change the code then only the third and forth layer will re build as others are cached 
