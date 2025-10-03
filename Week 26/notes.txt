@@ -161,4 +161,7 @@ in the dockerfile has 4 layers
 
 base layer -> workdir image -> copy the source code -> npm install 
 
-layers are required for caching
+layers are required for caching 
+this makes the project reusable and sharable 
+
+the base layer is cached also all the subsequent layers are also cached
