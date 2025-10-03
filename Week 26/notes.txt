@@ -182,3 +182,11 @@ pushing the npm install upwards so that it is cached even when the code changes.
 NETWORKS AND VOLUMES 
 
 if we restart a container then the data goes away
+docker containers are stateless so that they dont store data 
+
+if we want the data to be persisted when the docker restarts
+
+for mongo the data is stored in data/db we need to store it somewhere 
+
+for the docker container a volume is connected and then the persistant files are stored in the volume
+when the docker stops the data gets stored in the volume and when the docker re-runs then the data is used from the volume
