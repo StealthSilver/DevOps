@@ -193,3 +193,7 @@ when the docker stops the data gets stored in the volume and when the docker re-
 
 - docker volume create mongo_db_data 
 - docker run -p 27017:27017 -v mongo_db_data:/data/db mongo
+
+NETWORKS 
+
+two docker containers cannot communicate with each other
