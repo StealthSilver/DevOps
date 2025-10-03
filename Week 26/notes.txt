@@ -148,3 +148,6 @@ now you can push the image on docker hub
 
 docker login 
 docker push stealthsilver/hello-app
+
+
+--------------------------------------------------------------------------------------------------------
