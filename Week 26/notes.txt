@@ -202,4 +202,8 @@ we use a network to connect the two conatiners
 creating a newtwork 
 
 - docker network create [network name]
-- docker run --name [container name] --network [network name] 27017:27017 -v mongo_db_data:/data/db mongo
+
+starting the mongo contaier
+- docker run --name [container name] --network [network name] -p 27017:27017 -v mongo_db_data:/data/db mongo
+
+replace teh mongo uri -> localhost with the [container name]
