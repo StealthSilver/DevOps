@@ -168,3 +168,5 @@ the base layer is cached also all the subsequent layers are also cached
 when you docker build then the layers are cached
 
 if we change the code then only the third and forth layer will re build as others are cached 
+
+Optimising the docker files
