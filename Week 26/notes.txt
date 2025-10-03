@@ -160,3 +160,5 @@ when we create an image we are layering over a base image
 in the dockerfile has 4 layers 
 
 base layer -> workdir image -> copy the source code -> npm install 
+
+layers are required for caching
