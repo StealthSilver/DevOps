@@ -299,3 +299,6 @@ Creating a CD pipeline
 5. go to github repo settings and in secrets and variablees -> actions -> store the private key
 6. check the yml file and validate by ymp validator
 7. write both the staging and prod pipelines
+
+------------------------------------------------------------------------------------------------------------------------------------
+CI-CD
