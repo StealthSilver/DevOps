@@ -320,3 +320,15 @@ tools for ci-cd
 4. Travis CI 
 5. Gitlab CI CD 
 6. Bamboo
+
+GITHUB ACTIONS 
+
+DEVELOPER 
+1. Develop applciation 
+NODE JS
+2. Push to remote repo 
+GITHUB 
+3. Trigger workflow 
+GITHUB ACTIONS
+4. Build and deploy
+AMAZON EC2
