@@ -332,3 +332,5 @@ GITHUB
 GITHUB ACTIONS
 4. Build and deploy
 AMAZON EC2
+
+the actions are detailed in the yml file
