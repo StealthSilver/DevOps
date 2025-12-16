@@ -3,3 +3,5 @@ increasing the size of the machine for serving more users
 
 a thread is a phenomemon that runs on the core
 single threaded languages are bad for scaling. JS is a single threaded language
+
+Rust, Go, Java are multithreaded
