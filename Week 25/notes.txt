@@ -308,6 +308,15 @@ Continuous Deployment and Continuous Delivery (Deployment)
 CI is testing of the changes 
 CD is deployment of the features
 
-CI-CD pipeling 
+CI-CD pipeline
 
-Development -> Commit -> Build -> Test -> Release -> Deploy -> Production
+Development -> Commit -> Build -> Test -> Release -> Deploy (different envs. dev , staging , prod) -> Production
+
+tools for ci-cd 
+
+1. github actions 
+2. Jenkins
+3. Circle CI 
+4. Travis CI 
+5. Gitlab CI CD 
+6. Bamboo
