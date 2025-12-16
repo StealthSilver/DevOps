@@ -1,3 +1,5 @@
 VERTICAL SCALING 
 
 increasing the size of the machine for serving more users
+
+single threaded languages are bad for scaling. JS is a single threaded language
