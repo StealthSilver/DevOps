@@ -302,3 +302,8 @@ Creating a CD pipeline
 
 ------------------------------------------------------------------------------------------------------------------------------------
 CI-CD
+
+Continuous Deployment and Continuous Delivery (Deployment)
+
+CI is testing of the changes 
+CD is deployment of the features
