@@ -9,3 +9,5 @@ vertical scaling in a nodeJS process is not optimum
 Rust, Go, Java are multithreaded
 
 Implementing vertical scaling in Nodejs
+
+we have to use cluster module in js 

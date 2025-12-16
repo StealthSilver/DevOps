@@ -7,3 +7,4 @@
 5. write ahead logs
 6. hot module reloading bind volumes -> docker
 7. serverless deployment, AWS firecracker, clouflare
+8. forking in c++

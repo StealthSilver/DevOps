@@ -1,0 +1,96 @@
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
+
+# Environment/config
+.env
+.env.*
+*.local
+*.secret
+
+# Logs and temp
+logs/
+*.log
+*.pid
+*.seed
+*.swp
+*.swo
+tmp/
+.cache/
+
+# Node/JS
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+.svelte-kit/
+.vercel/
+.bun/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+pip-log.txt
+build/
+dist/
+.eggs/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.coverage*
+
+# Go
+bin/
+vendor/
+*.test
+coverage.out
+
+# Java/Gradle/Maven
+target/
+build/
+*.class
+.gradle/
+*.log
+
+# Ruby
+.bundle/
+vendor/bundle/
+log/
+tmp/
+
+# Docker
+docker-compose.override.yml
+*.tar
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Kubernetes
+.kube/
+
+# Ansible
+*.retry
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Git
+.git-credentials
+.gitconfig.local
