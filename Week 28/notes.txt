@@ -25,3 +25,6 @@ we can scale servers without autoscaling groups also.
 we just need a load balancer and start multiple machines.
 
 autoscaling groups make the task easier
+
+as the application grows we need to scale adn it must also have the capacity to automatically increase or decrease hte size according to the traffic
+
