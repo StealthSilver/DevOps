@@ -33,5 +33,5 @@ An autoscaling group is a service provided by AWS that has the ability to automa
 to create an autoscaling group 
 
 1. create an E2 instance 
-2. create an image (blueprint)
+2. create an image (blueprint) - Amazon Machine Image is a AMI 
 3.
