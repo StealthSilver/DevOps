@@ -30,3 +30,8 @@ as the application grows we need to scale adn it must also have the capacity to 
 
 An autoscaling group is a service provided by AWS that has the ability to automatically adjust the number of EC2 instances to meet the demands of users.
 
+to create an autoscaling group 
+
+1. create an E2 instance 
+2. create an image (blueprint)
+3.
