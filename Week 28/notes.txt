@@ -28,3 +28,5 @@ autoscaling groups make the task easier
 
 as the application grows we need to scale adn it must also have the capacity to automatically increase or decrease hte size according to the traffic
 
+An autoscaling group is a service provided by AWS that has the ability to automatically adjust the number of EC2 instances to meet the demands of users.
+
