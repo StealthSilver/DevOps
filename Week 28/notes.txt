@@ -21,3 +21,7 @@ this is the system design question where we are asked:
 
 AUTOSCALING GROUPS
 
+we can scale servers without autoscaling groups also.
+we just need a load balancer and start multiple machines.
+
+autoscaling groups make the task easier
