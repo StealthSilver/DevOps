@@ -34,4 +34,4 @@ to create an autoscaling group
 
 1. create an E2 instance 
 2. create an image (blueprint) - Amazon Machine Image is a AMI 
-3.
+3. create a target group
